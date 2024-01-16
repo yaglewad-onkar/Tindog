@@ -1,6 +1,7 @@
 .gradient-background {
   background: linear-gradient(300deg, #a63fe7, #4b84da, #ccb8a9);
-  background-size: 180% 180%;
+  width:100%;
+  overflow:hidden;
   animation: gradient-animation 18s ease infinite;
 }
 
@@ -29,4 +30,6 @@
 
 #footer{
   display: block;
+  width:100%;
+  position:relative
 }
